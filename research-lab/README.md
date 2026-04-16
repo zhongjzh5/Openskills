@@ -1,57 +1,58 @@
-# AI Research Lab
+# OpenSkills Development Lab
 
->  artificial intelligence research collaboration platform
+>  AI skill encapsulation framework and collaborative development platform
 
 ## About Us
 
-We are an interdisciplinary research team focused on advancing artificial intelligence through collaborative research, open-source development, and knowledge sharing. Our lab brings together researchers from computer science, mathematics, and cognitive science to tackle fundamental challenges in AI.
+We are a development team focused on building OpenSkills - a comprehensive framework for encapsulating and managing AI assistant capabilities. Our mission is to create standardized, reusable, and shareable AI skills that enhance the capabilities of AI assistants.
 
-## Research Areas
+## Project Focus
 
-- **Machine Learning**: Deep learning, reinforcement learning, and transfer learning
-- **Natural Language Processing**: Language models, text generation, and understanding
-- **Computer Vision**: Image recognition, object detection, and generative models
-- **AI Ethics**: Responsible AI development and ethical considerations
+- **Skill Framework**: Standardized structure for AI skill development
+- **CLI Toolchain**: Command-line tools for skill management
+- **Data-Driven Development**: User feedback analysis and direction prioritization
+- **Community Building**: Open-source collaboration and contribution ecosystem
 
 ## Our Projects
 
-### Active Projects
+### Core Project
 
 | Project | Description | Status | Contributors |
 |---------|-------------|--------|-------------|
-| [OpenSkills](../openskills/) | Skill encapsulation framework for AI assistants | Active | @zhongjzh5, @team-member-1 |
-| [Neural Architecture Search](./projects/nas/) | Automated neural network design | Planning | @researcher-2 |
-| [Multi-Modal Learning](./projects/multimodal/) | Vision-language models | In Progress | @researcher-3 |
+| [OpenSkills](../openskills/) | Skill encapsulation framework for AI assistants | Active | @your-username, @contributor-1 |
 
-### Completed Projects
+### Skills in Development
 
-| Project | Description | Completed | Publications |
-|---------|-------------|-----------|--------------|
-| [Transfer Learning Framework](./projects/transfer/) | Efficient transfer learning methods | 2025-03 | ICML 2025 |
+| Skill | Description | Status | Category |
+|--------|-------------|--------|----------|
+| [meme-generator](../openskills/meme-generator/) | Intelligent meme generation based on context | Active | Content Creation |
+| [image-resize](../openskills/image-resize/) | Batch image processing and optimization | Active | Image Processing |
+| [meme-finder](../openskills/meme-finder/) | Contextual meme search and retrieval | Planning | Content Discovery |
+| [pdf-extract](../openskills/pdf-extract/) | PDF content extraction and processing | Planning | Document Processing |
 
-## Team
+## Team Structure
 
-### Principal Investigators
-- **Dr. Zhang Wei** - Lab Director, Machine Learning Expert
-- **Dr. Li Ming** - NLP Research Lead
+### Project Lead
+- **[Your Name]** - Project Founder and Lead Developer
 
-### PhD Students
-- **Zhang Jiazheng** - OpenSkills Project Lead
-- **Wang Xiaoli** - Computer Vision Research
-- **Chen Hao** - NLP and Ethics
+### Contributors
+- **[Contributor 1]** - Skill Development
+- **[Contributor 2]** - CLI Toolchain
+- **[Contributor 3]** - Documentation and Testing
 
-### Master Students
-- **Liu Yang** - Reinforcement Learning
-- **Zhao Min** - Data Engineering
+### Community Contributors
+- Open to community contributions
+- Mentoring program for new contributors
+- Regular code reviews and feedback
 
 ## Publications
 
-### 2025
-1. **"OpenSkills: A Framework for AI Skill Encapsulation"** - Zhang J., Li M., et al. *ICML 2025*
-2. **"Efficient Transfer Learning for Small Datasets"** - Wang X., et al. *NeurIPS 2025*
+### [To Be Added]
+*Publications will be added here as the project grows*
 
-### 2024
-1. **"Multi-Modal Learning with Limited Data"** - Chen H., et al. *CVPR 2024*
+### Conference Presentations
+### [To Be Added]
+*Conference presentations will be added here as the project grows*
 
 ## Resources
 

@@ -1,42 +1,42 @@
-# Task Assignment and Progress Tracking
+# Task Assignment and Progress Tracking for OpenSkills
 
 ## Project Management Framework
 
 ### Task Classification System
 
 #### Priority Levels
-- **P0 (Critical)**: Blockers, security issues, deadline-critical tasks
-- **P1 (High)**: Important features, research milestones, major bugs
-- **P2 (Medium)**: Regular features, improvements, documentation
+- **P0 (Critical)**: Framework blockers, security issues, critical bugs
+- **P1 (High)**: Core features, skill implementations, major improvements
+- **P2 (Medium)**: Skill enhancements, documentation, testing
 - **P3 (Low)**: Nice-to-have features, cleanup, minor issues
 
 #### Task Categories
-- **Research**: Algorithm development, experiments, paper writing
-- **Development**: Code implementation, testing, deployment
-- **Infrastructure**: CI/CD, tools, documentation
-- **Community**: Reviews, mentorship, outreach
+- **Skill Development**: New skills, skill improvements, skill optimization
+- **Framework Development**: CLI tools, validation system, templates
+- **Infrastructure**: CI/CD, documentation, testing framework
+- **Community**: Issue triage, code review, mentorship
 
 ### Role-Based Assignment System
 
-#### Principal Investigators (PIs)
-- **Responsibilities**: Project direction, funding, high-level decisions
-- **Task Types**: Research proposals, paper reviews, strategic planning
-- **Time Allocation**: 40% research, 30% administration, 30% mentorship
+#### Project Lead
+- **Responsibilities**: Project direction, framework design, technical decisions
+- **Task Types**: Architecture design, core features, strategic planning
+- **Time Allocation**: 50% development, 30% architecture, 20% community
 
-#### PhD Students
-- **Responsibilities**: Research execution, paper writing, mentoring
-- **Task Types**: Algorithm development, experiments, publications
-- **Time Allocation**: 60% research, 20% teaching/mentoring, 20% service
+#### Core Contributors
+- **Responsibilities**: Skill development, framework improvements, testing
+- **Task Types**: Skill implementation, CLI tools, documentation
+- **Time Allocation**: 70% development, 20% testing, 10% documentation
 
-#### Master Students
-- **Responsibilities**: Implementation, testing, documentation
-- **Task Types**: Code development, experiments, literature review
-- **Time Allocation**: 70% development, 20% learning, 10% service
+#### Community Contributors
+- **Responsibilities**: Bug fixes, feature suggestions, community support
+- **Task Types**: Issue triage, code review, skill examples
+- **Time Allocation**: 60% contributions, 20% learning, 20% community
 
-#### Research Interns
-- **Responsibilities**: Specific tasks, learning, support
-- **Task Types**: Data processing, testing, documentation
-- **Time Allocation**: 80% assigned tasks, 20% learning
+#### New Contributors
+- **Responsibilities**: Learning, small tasks, documentation improvements
+- **Task Types**: Documentation, testing, small feature implementations
+- **Time Allocation**: 40% learning, 40% small tasks, 20% documentation
 
 ## Task Assignment Process
 

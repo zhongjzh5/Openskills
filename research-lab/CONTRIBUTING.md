@@ -1,6 +1,6 @@
-# Contributing to AI Research Lab
+# Contributing to OpenSkills
 
-Thank you for your interest in contributing to our research lab! This guide will help you understand how to contribute effectively.
+Thank you for your interest in contributing to OpenSkills! This guide will help you understand how to contribute to our AI skill encapsulation framework.
 
 ## Table of Contents
 
@@ -52,25 +52,31 @@ Thank you for your interest in contributing to our research lab! This guide will
 
 ## Types of Contributions
 
-We welcome various types of contributions:
+We welcome various types of contributions to OpenSkills:
 
-### Code Contributions
-- **Bug Fixes**: Resolve issues in existing code
-- **New Features**: Add functionality to projects
-- **Performance Improvements**: Optimize existing algorithms
-- **Documentation**: Improve code documentation
+### Skill Development
+- **New Skills**: Create new AI skills following our framework
+- **Skill Improvements**: Enhance existing skills with new features
+- **Performance Optimizations**: Improve skill performance and efficiency
+- **Bug Fixes**: Resolve issues in skill implementations
 
-### Research Contributions
-- **New Algorithms**: Novel approaches to existing problems
-- **Experimental Results**: Reproduce or extend existing research
-- **Datasets**: Curate and share research datasets
-- **Literature Reviews**: Comprehensive analysis of research areas
+### Framework Development
+- **CLI Tools**: Enhance the OpenSkills command-line interface
+- **Validation System**: Improve skill validation and testing
+- **Documentation**: Improve framework documentation and guides
+- **Templates**: Create new skill templates and examples
 
 ### Community Contributions
 - **Issue Triage**: Help manage and categorize issues
 - **Code Review**: Provide constructive feedback on PRs
-- **Mentorship**: Help new contributors get started
-- **Documentation**: Improve guides and tutorials
+- **Mentorship**: Help new contributors develop skills
+- **Testing**: Improve test coverage and quality assurance
+
+### Content and Examples
+- **Use Cases**: Share real-world skill usage examples
+- **Tutorials**: Create step-by-step guides for skill development
+- **Best Practices**: Document skill development patterns
+- **Integration Examples**: Show how to combine multiple skills
 
 ## Development Workflow
 

@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Successfully implemented a comprehensive GitHub collaboration homepage for the AI Research Lab, including contribution guidelines, task management systems, and team collaboration frameworks.
+Successfully implemented a comprehensive GitHub collaboration homepage for OpenSkills project, including contribution guidelines, task management systems, and team collaboration frameworks.
 
 ## Completed Components
 

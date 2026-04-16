@@ -1,8 +1,8 @@
-# Team Collaboration Guidelines
+# Team Collaboration Guidelines for OpenSkills
 
 ## Overview
 
-This document outlines the collaboration standards and practices for the AI Research Lab. Following these guidelines ensures efficient teamwork, high-quality research output, and a positive working environment.
+This document outlines the collaboration standards and practices for the OpenSkills development team. Following these guidelines ensures efficient teamwork, high-quality skill development, and a positive open-source community.
 
 ## Communication Standards
 
@@ -13,28 +13,28 @@ This document outlines the collaboration standards and practices for the AI Rese
 - **Participants**: All team members
 - **Format**: Round-robin updates
 - **Content**:
-  - What I accomplished last week
-  - What I plan to work on this week
-  - Any blockers or issues
-  - Need for collaboration
+  - Skills developed last week
+  - Plans for current week
+  - Framework improvements
+  - Community contributions
 
-#### Research Review (Bi-weekly, Wednesday, 2:00 PM - 3:30 PM)
+#### Skill Review (Bi-weekly, Wednesday, 2:00 PM - 3:30 PM)
 - **Duration**: 90 minutes
-- **Participants**: PIs, PhD students, interested Master students
-- **Format**: Paper presentations and research discussions
+- **Participants**: Project lead, core contributors
+- **Format**: Skill demonstrations and discussions
 - **Content**:
-  - Research progress updates
-  - Paper reviews
-  - Methodology discussions
-  - Future research directions
+  - New skill implementations
+  - Skill improvement suggestions
+  - Framework enhancements
+  - User feedback analysis
 
 #### Development Sync (Friday, 3:00 PM - 4:00 PM)
 - **Duration**: 60 minutes
-- **Participants**: Development team, research team
+- **Participants**: Development team, community contributors
 - **Format**: Demo and discussion
 - **Content**:
-  - Feature demonstrations
-  - Code review highlights
+  - CLI tool improvements
+  - Skill validation results
   - Infrastructure updates
   - Technical challenges
 
@@ -44,9 +44,9 @@ This document outlines the collaboration standards and practices for the AI Rese
 - **Format**: Collaborative planning
 - **Content**:
   - Previous month review
-  - Current month goals
-  - Resource allocation
-  - Milestone setting
+  - Current month skill roadmap
+  - Framework development goals
+  - Community engagement plans
 
 ### 2. Communication Channels
 
