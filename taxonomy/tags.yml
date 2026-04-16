@@ -1,0 +1,150 @@
+# 方向标签体系（候选方向 + 关键词）
+# 用于自动打标与 Top15 方向筛选
+
+directions:
+  meme_finder:
+    keywords:
+      - meme
+      - 表情包
+      - 配图
+      - 查图
+      - 搜图
+    description: 按关键词/情绪/场景查找表情包
+    risk_level: low
+    allow_network: true
+
+  meme_maker:
+    keywords:
+      - meme maker
+      - 表情包制作
+      - 加字
+      - 合图
+      - 水印
+    description: 表情包创作与编辑（加字、拼接、水印）
+    risk_level: low
+    allow_network: false
+
+  batch_convert:
+    keywords:
+      - 批量转换
+      - 格式转换
+      - 批处理
+      - convert
+      - transform
+    description: 批量文件格式转换（pdf→png、jpg→webp等）
+    risk_level: medium
+    allow_network: false
+
+  pdf_extract:
+    keywords:
+      - pdf
+      - 提取
+      - pdf转word
+      - pdf转文本
+      - pdf extract
+    description: PDF 内容提取（文本/图片/表格）
+    risk_level: low
+    allow_network: false
+
+  image_resize:
+    keywords:
+      - 图片压缩
+      - 缩图
+      - resize
+      - 压缩
+      - 批量改尺寸
+    description: 图片批量压缩/缩放/格式优化
+    risk_level: low
+    allow_network: false
+
+  subtitle_translate:
+    keywords:
+      - 字幕翻译
+      - subtitle
+      - 翻译
+      - srt
+      - 字幕
+    description: 字幕文件翻译与时间轴对齐
+    risk_level: medium
+    allow_network: true
+
+  data_clean:
+    keywords:
+      - 数据清洗
+      - 去重
+      - 格式化
+      - data clean
+      - normalize
+    description: 结构化数据清洗与标准化
+    risk_level: low
+    allow_network: false
+
+  file_rename:
+    keywords:
+      - 批量重命名
+      - rename
+      - 文件改名
+      - 规则改名
+    description: 按规则批量重命名文件/目录
+    risk_level: medium
+    allow_network: false
+
+  screenshot_ocr:
+    keywords:
+      - 截图识别
+      - ocr
+      - 图片转文字
+      - screenshot
+    description: 截图/图片 OCR 文字提取
+    risk_level: low
+    allow_network: false
+
+  url_batch_download:
+    keywords:
+      - 批量下载
+      - url download
+      - 爬取
+      - 批量抓取
+    description: 批量从 URL 下载文件（图片/文档）
+    risk_level: high
+    allow_network: true
+
+  markdown_convert:
+    keywords:
+      - markdown
+      - md转换
+      - 文档转换
+      - md to docx
+    description: Markdown 与其他文档格式互转
+    risk_level: low
+    allow_network: false
+
+  excel_process:
+    keywords:
+      - excel
+      - 表格处理
+      - csv
+      - 数据透视
+    description: Excel/CSV 批量处理与透视
+    risk_level: low
+    allow_network: false
+
+  code_format:
+    keywords:
+      - 代码格式化
+      - 代码整理
+      - format code
+      - 代码美化
+    description: 多语言代码批量格式化/风格统一
+    risk_level: low
+    allow_network: false
+
+  log_analyze:
+    keywords:
+      - 日志分析
+      - log
+      - 错误统计
+      - 日志清洗
+    description: 日志文件解析、清洗与统计
+    risk_level: low
+    allow_network: false

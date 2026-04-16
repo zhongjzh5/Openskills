@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/openskills/__init__.py
+src/openskills/cli.py
+src/openskills.egg-info/PKG-INFO
+src/openskills.egg-info/SOURCES.txt
+src/openskills.egg-info/dependency_links.txt
+src/openskills.egg-info/entry_points.txt
+src/openskills.egg-info/requires.txt
+src/openskills.egg-info/top_level.txt

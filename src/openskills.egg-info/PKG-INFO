@@ -1,0 +1,119 @@
+Metadata-Version: 2.4
+Name: openskills
+Version: 1.0.0
+Summary: Skill encapsulation framework for AI assistants
+Home-page: https://github.com/zhongjzh5/Openskills
+Author: OpenSkills Team
+Author-email: team@openskills.dev
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: requests>=2.28.0
+Requires-Dist: pillow>=9.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0.0; extra == "dev"
+Requires-Dist: black>=22.0.0; extra == "dev"
+Requires-Dist: flake8>=5.0.0; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# OpenSkills
+
+Skill encapsulation framework for AI assistants.
+
+## Features
+
+- **Skill Management**: Create, validate, and manage AI skills
+- **CLI Toolchain**: Command-line tools for skill development
+- **Standardized Structure**: Consistent skill organization and documentation
+- **Validation**: Built-in skill validation and testing
+
+## Quick Start
+
+### Installation
+
+```bash
+pip install -e .
+```
+
+### Create a New Skill
+
+```bash
+openskills create my-skill
+cd my-skill
+# Edit SKILL.md and implement your skill
+openskills validate .
+```
+
+### List Available Skills
+
+```bash
+openskills list
+```
+
+### Validate a Skill
+
+```bash
+openskills validate path/to/skill
+```
+
+## Project Structure
+
+```
+openskills/
+|-- src/openskills/          # Core framework
+|   |-- __init__.py
+|   |-- cli.py              # CLI toolchain
+|-- skills/                 # Skill implementations
+|   |-- meme-generator/     # Example skill
+|   |-- image-resize/       # Another skill
+|-- data/                   # Data and feedback
+|-- scripts/               # Utility scripts
+|-- tests/                 # Framework tests
+```
+
+## Skill Structure
+
+Each skill follows this structure:
+
+```
+skill-name/
+|-- SKILL.md               # Skill documentation (required)
+|-- requirements.txt       # Dependencies (required)
+|-- scripts/               # Implementation (required)
+|   |-- main.py
+|-- tests/                 # Tests (required)
+|   |-- test_skill.py
+|-- docs/                  # Additional docs
+|-- assets/                # Resources
+```
+
+## Contributing
+
+1. Fork the project
+2. Create a feature branch
+3. Implement your skill
+4. Add tests
+5. Submit a pull request
+
+## License
+
+MIT License - see LICENSE file for details.

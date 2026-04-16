@@ -1,0 +1,14 @@
+{
+  "input_dir": "./test_input",
+  "output_dir": "./test_output",
+  "options": {
+    "width": 400,
+    "height": 300,
+    "maintain_aspect_ratio": true,
+    "quality": 85,
+    "format": "jpeg",
+    "create_thumbnails": true,
+    "thumbnail_size": 100
+  },
+  "file_patterns": ["*.jpg", "*.png", "*.bmp"]
+}

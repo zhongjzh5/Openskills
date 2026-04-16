@@ -89,8 +89,8 @@ try:
     generator.output_dir = Path(temp_dir)
 
     input_data = InputModel(
-        context="测试简单生成功能",
-        user_input="生成测试表情包",
+        context="testing simple generation functionality with enough characters",
+        user_input="generate test meme",
         options=Options(source="generate", max_results=1)
     )
 

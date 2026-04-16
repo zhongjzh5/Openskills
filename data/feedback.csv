@@ -1,0 +1,4 @@
+id,source,text,created_at,frequency,tags,link,votes
+
+2,github_issue,[Bug] 测试有bug,2026-04-16,unknown,,https://github.com/zhongjzh5/Openskills/issues/2,0
+1,github_issue,[Skill] 批量给图片加左下角 logo 水印,2026-04-16,unknown,,https://github.com/zhongjzh5/Openskills/issues/1,0

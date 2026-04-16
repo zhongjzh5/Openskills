@@ -11,3 +11,6 @@ Thumbs.db
 meme-generator/output/
 meme-generator/user_data/
 meme-generator/test_output.json
+
+# 环境变量
+.env
