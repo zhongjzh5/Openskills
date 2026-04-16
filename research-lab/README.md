@@ -69,8 +69,7 @@ We are a development team focused on building OpenSkills - a comprehensive frame
 ## Join Us
 
 ### Open Positions
-- **PhD Positions** (2 positions available): Machine learning and NLP
-- **Research Internships**: Summer 2025 internships
+
 - **Visiting Scholars**: Collaboration opportunities
 
 ### How to Apply
@@ -116,4 +115,4 @@ We welcome collaboration from:
 
 ---
 
-*Last updated: April 2025*
+*Last updated: April 2026*
