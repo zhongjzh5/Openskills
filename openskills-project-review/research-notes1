@@ -1,0 +1,201 @@
+# OpenSkills 项目实验综述与个人任务报告
+
+## 一、项目背景与定位
+
+OpenSkills 是一个面向 AI 助手的**技能封装与共享框架**。
+
+其核心目标是：
+> 让开发者可以将“高频、可重复、可验收”的任务（如文件处理、数据清洗、自动化报告）封装为标准化的 **Skill**，从而让 AI（如 Claude）能够稳定、安全地调用。
+
+本项目不是从零造轮子，而是强调：
+- **不重写代码**（封装现有 CLI / API）
+- **强边界定义**（明确触发与禁用场景）
+- **安全优先**（高危操作需人工确认）
+
+---
+
+## 二、实验目标
+
+本次实验的总体目标可归纳为 **三个阶段**：
+
+| 阶段 | 目标 | 核心产出 |
+|------|------|----------|
+| 阶段一 | 收集高频可封装的 Skill | 《高效 Skill 调研报告》 |
+| 阶段二 | 亲手开发 1–2 个有趣且可用的 Skill | `meme-finder` / `meme-generator` |
+| 阶段三 | 内部试用并发现系统性问题 | Bug 清单 + 修复建议 |
+
+**总结实验目标：**
+> 验证 OpenSkills 框架是否能在低门槛、高安全的前提下，快速生产出真正有用的 AI Skill。
+
+---
+
+## 三、实验方法与执行路径
+
+本项目遵循以下已有方案：
+
+### 1. 分层架构
+- 核心库：高稳定性 Skill
+- 社区区：轻量级 SKILL.md 型 Skill
+
+### 2. 目录规范（OpenClaw 标准）
+- skill-name/
+- ├── SKILL.md # 元数据 + 触发规则
+- ├── scripts/ # 执行脚本（Python/Shell）
+- ├── references/ # 业务规则/历史失败案例
+- └── assets/ # 输出模板
+
+
+### 3. 封装三原则
+- 不重写代码
+- 强边界定义
+- 安全兜底
+
+### 4. 治理策略
+- 试点 → 内建 → 规模化
+
+---
+
+## 四、对实验的核心理解
+
+### 1. 这不是一个“纯技术项目”，而是一个“技术与流程的联合实验”
+
+OpenSkills 的核心难点不在于写代码，而在于：
+- 如何定义边界
+- 如何降低贡献门槛
+- 如何在安全与效率之间做取舍
+
+### 2. Skill 的本质是一个“可被 AI 安全执行的契约”
+
+每一个 Skill 都必须回答三个问题：
+- ✅ 什么时候该触发？
+- ❌ 什么时候绝对不能触发？
+- 🛡️ 失败时如何兜底？
+
+这也是为什么 `SKILL.md` 比代码更重要。
+
+### 3. 高频 ≠ 复杂，有趣 ≠ 不严肃
+
+- 高频技能（Excel、PDF）解决的是**效率**
+- 有趣技能（表情包）解决的是**参与感与传播**
+- 两者在实验阶段同等重要
+
+### 4. 试用的真正价值不是“能不能用”，而是“会不会用错”
+
+本实验最关心的 Bug 类型是：
+- 误触发（不该做时做了）
+- 边界缺失（输入不合法时崩溃）
+- 安全漏洞（未经授权的文件/网络访问）
+
+---
+
+## 五、我在本次实验中的具体任务
+
+### 任务一：完成高频 Skill 调研报告
+- 收集候选 Skill
+- 按“高频 / 可验收 / 可封装”评估
+- 输出 P0（立即开发）与 P1（第二批）清单
+
+### 任务二：亲自开发 1–2 个实验性 Skill
+- 示例：`meme-finder`（查找最新表情包）
+- 可选扩展：`meme-generator`（创作表情包）
+- 要求：
+  - 目录结构完整
+  - SKILL.md 包含触发/禁用规则
+  - 脚本可独立运行
+
+### 任务三：组织并完成内部试用
+- 邀请 ≥3 人试用
+- 记录每一次非预期行为
+- 输出结构化 Bug 清单
+
+### 任务四：撰写实验总结与反思
+- 哪些 Skill 被证明是“真正有用的”
+- 哪些设计假设被验证 / 被推翻
+- 对下一阶段（内建流水线）的建议
+
+---
+
+## 六、当前实验阶段 & 下一步计划
+
+| 当前阶段 | 阶段一（调研 + 原型） |
+|----------|----------------------|
+| 已完成   | 项目目标对齐、技术方案确认 |
+| 进行中   | 高频 Skill 调研、报告撰写 |
+| 待开始   | 表情包 Skill 开发、内部试用 |
+
+### 下一步具体行动
+
+1. **本周完成**  
+   - 高频 Skill 调研报告
+
+2. **下周完成**  
+   - `meme-finder` Skill 开发 + 自测
+
+3. **第三周完成**  
+   - 内部试用 + Bug 汇总
+
+---
+
+## 七、候选 Skill 清单
+
+| 编号 | Skill 名称 | 来源 | 功能描述 | 复杂度 | 优先级 |
+|------|------------|------|----------|--------|--------|
+| S001 | mcporter | clawdbot/moltbot/openclaw | 多功能代码处理与转换工具 | 中 | P0 |
+| S002 | slack | moltbot | Slack平台集成与消息管理 | 中 | P0 |
+| S003 | blogwatcher | moltbot | 博客内容监控与更新通知 | 低 | P1 |
+| S004 | clawdhub | molt-bot | Claude技能中心管理与发现 | 中 | P0 |
+| S005 | Superpowers | obra | 全生命周期开发流程编排 | 高 | P0 |
+| S006 | Planning with Files | OthmanAdi | 持久化任务规划系统 | 中 | P1 |
+| S007 | PDF Master | 社区 | PDF文档处理与转换 | 低 | P0 |
+| S008 | UniversalCodeReviewer | 社区 | 通用代码审查与质量分析 | 高 | P0 |
+| S009 | OpenAI/skills | OpenAI | OpenAI官方技能集合（65+技能） | 中 | P1 |
+| S010 | Vercel-labs/agent-skills | Vercel | 前端工作流相关技能 | 中 | P1 |
+
+### 技能GitHub链接
+
+> **链接说明**：
+> - ✅ 直接链接：技能有独立的GitHub仓库
+> - 🔍 查找链接：技能在 [skillhub-awesome-skills](https://github.com/keyuyuan/skillhub-awesome-skills) 集合中
+> - 🏢 官方链接：来自OpenAI、Vercel等官方组织
+
+| Skill 名称 | GitHub 链接 | 备注 |
+|------------|-------------|------|
+| mcporter | [steipete/mcporter](https://github.com/steipete/mcporter) | MCPorter工具主要仓库 |
+| slack | [skillhub中查找](https://github.com/keyuyuan/skillhub-awesome-skills) | Slack集成技能（社区技能） |
+| blogwatcher | [skillhub中查找](https://github.com/keyuyuan/skillhub-awesome-skills) | 博客监控技能（社区技能） |
+| clawdhub | [skillhub中查找](https://github.com/keyuyuan/skillhub-awesome-skills) | Claude技能中心（社区技能） |
+| Superpowers | [obra/superpowers](https://github.com/obra/superpowers) | 全生命周期开发编排 |
+| Planning with Files | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | 持久化任务规划 |
+| PDF Master | [skillhub中查找](https://github.com/keyuyuan/skillhub-awesome-skills) | PDF处理工具（社区技能） |
+| UniversalCodeReviewer | [skillhub中查找](https://github.com/keyuyuan/skillhub-awesome-skills) | 通用代码审查（社区技能） |
+| OpenAI/skills | [OpenAI/skills](https://github.com/OpenAI/skills) | OpenAI官方技能集合 |
+| Vercel-labs/agent-skills | [Vercel-labs/agent-skills](https://github.com/Vercel-labs/agent-skills) | Vercel前端工作流技能 |
+
+---
+
+## 八、评估矩阵（已填写）
+
+| Skill | 高频性 | 可验收性 | 可行性 | 单一职责 | 安全性 | 活跃度 | 总分 | 优先级 |
+|-------|--------|----------|--------|----------|--------|--------|------|--------|
+| mcporter | 4 | 5 | 4 | 3 | 4 | 5 | 4.2 | P0 |
+| slack | 5 | 4 | 3 | 4 | 3 | 5 | 4.0 | P0 |
+| blogwatcher | 3 | 5 | 4 | 5 | 5 | 4 | 4.3 | P1 |
+| clawdhub | 4 | 4 | 3 | 4 | 4 | 5 | 4.0 | P0 |
+| Superpowers | 5 | 4 | 2 | 2 | 4 | 4 | 3.5 | P0 |
+| Planning with Files | 4 | 5 | 4 | 5 | 5 | 3 | 4.3 | P1 |
+| PDF Master | 5 | 5 | 5 | 5 | 3 | 4 | 4.5 | P0 |
+| UniversalCodeReviewer | 4 | 4 | 3 | 4 | 4 | 4 | 3.8 | P0 |
+| OpenAI/skills | 4 | 5 | 4 | 2 | 5 | 5 | 4.2 | P1 |
+| Vercel-labs/agent-skills | 4 | 4 | 4 | 3 | 4 | 4 | 3.8 | P1 |
+
+---
+
+## 九、Bug 记录模板（待填写）
+
+```markdown
+## Skill 名称：
+- 操作步骤：
+- 期望结果：
+- 实际结果：
+- 原因分析：
+- 状态：[待修复/已修复/不予修复]

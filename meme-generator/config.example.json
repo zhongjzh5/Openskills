@@ -1,0 +1,74 @@
+{
+  "api_keys": {
+    "imgflip": {
+      "username": "YOUR_IMGFLIP_USERNAME",
+      "password": "YOUR_IMGFLIP_PASSWORD"
+    },
+    "giphy": "YOUR_GIPHY_API_KEY",
+    "tenor": "YOUR_TENOR_API_KEY"
+  },
+  "storage": {
+    "output_dir": "output",
+    "cache_dir": "cache",
+    "max_cache_size_mb": 500,
+    "cleanup_days": 30,
+    "backup_enabled": true,
+    "backup_dir": "backups"
+  },
+  "generation": {
+    "default_style": "搞笑",
+    "default_language": "zh",
+    "quality": "medium",
+    "max_text_length": 20,
+    "default_font_size": 24,
+    "text_stroke_width": 2,
+    "text_stroke_color": "#000000",
+    "min_contrast_ratio": 4.5
+  },
+  "safety": {
+    "content_filter": true,
+    "max_downloads_per_day": 100,
+    "require_confirmation": true,
+    "blocked_keywords": ["政治", "暴力", "色情", "仇恨", "歧视"],
+    "allowed_domains": ["imgflip.com", "giphy.com", "tenor.com", "memegen.link"],
+    "user_consent_required": true
+  },
+  "performance": {
+    "max_workers": 3,
+    "timeout_seconds": 30,
+    "retry_attempts": 3,
+    "connection_timeout": 5,
+    "read_timeout": 10,
+    "cache_enabled": true,
+    "cache_ttl_hours": 24
+  },
+  "user_preferences": {
+    "learning_enabled": true,
+    "history_size": 100,
+    "personalization_strength": 0.7,
+    "default_preferences": {
+      "style": "搞笑",
+      "humor_level": 3,
+      "language": "zh",
+      "favorite_templates": ["doge", "drake"],
+      "avoid_topics": ["政治", "宗教"]
+    }
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/app.log",
+    "max_file_size_mb": 10,
+    "backup_count": 5,
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  },
+  "advanced": {
+    "context_analysis_depth": "medium",
+    "matching_algorithm": "hybrid",
+    "template_auto_update": true,
+    "api_fallback_order": ["imgflip", "giphy", "tenor", "local"],
+    "experimental_features": false,
+    "debug_mode": false
+  },
+  "version": "1.0.0",
+  "last_updated": "2026-04-15"
+}
